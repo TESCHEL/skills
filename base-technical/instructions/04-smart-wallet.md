@@ -20,7 +20,7 @@ Base's Smart Wallet implements ERC-4337 account abstraction. Transactions can be
 
 ### Bundler
 - Collects UserOperations, submits to entry point contract
-- Run by Coinbase â developers only call `sendUserOperation`
+- Run by Coinbase -- developers only call `sendUserOperation`
 
 ### Sub Accounts
 - App-specific smart wallets under a parent account
@@ -68,7 +68,7 @@ const calls = [
 ];
 await client.executeBatch(subAccountAddress, calls);
 ```
-Packages multiple operations into one UserOperation â reduces fees, ensures atomic execution.
+Packages multiple operations into one UserOperation -- reduces fees, ensures atomic execution.
 
 ## BAiSED Implementation Plan
 1. Create sub account for autonomous operations
