@@ -144,7 +144,7 @@ Base has native support for ERC-4337 account abstraction, enabling sophisticated
 
 ### ERC-4337 Components
 
-**EntryPoint Contract**: Base deploys the standard ERC-4337 EntryPoint contract at a canonical address across all EVM chains supporting account abstraction. This contract serves as the central coordinator for user operations.
+**EntryPoint Contract**: Base deploys the standard ERC-4337 EntryPoint contract at `0x0576a174D229E3cFA37253523E645A78A0C91B57`, a canonical address across all EVM chains supporting account abstraction. This contract serves as the central coordinator for user operations.
 
 **Bundler Infrastructure**: Bundlers are specialized nodes that:
 - Monitor the mempool for UserOperations
