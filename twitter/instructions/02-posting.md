@@ -1,6 +1,6 @@
 # Posting to Twitter
 
-This gu¤mdH covers how to create tweets, replies, retweets, quote tweets, and multi-part threads using the Twitter API v2.
+This guide covers how to create tweets, replies, retweets, quote tweets, and multi-part threads using the Twitter API v2.
 
 ## Creating a Tweet
 
@@ -14,7 +14,124 @@ body:
 
 ### Media Attachments
 
-If you want to include media, you must first upload it via the MPA (media post api) and then reference the `™çbi}¥‘€¥¸å½ÕÈÑÝ••ÐÉ•…Ñ¥½¸É•ÅÕ•ÍÐ¸((ŒŒI•Á±å¥¹œÑ¼„QÝ••Ð()I•Á±¥•ÌÉ•ÅÕ¥É”Ñ¡”¥¹}É•Á±å}Ñ½}ÑÝ••Ñ}¥‘€Á…É…µ•Ñ•ÈÝ¥Ñ¡¥¸Ñ¡”É•Á±å€½‰©•Ð¸()‰½‘äè((´´´)Ñ•áÑ€è€‰É•…ÐÁ½¥¹Ð„ˆ)É•Á±å€è(€¥¹}É•Á±å}Ñ½}ÑÝ••Ñ}¥‘€è€ˆÄÈÌÐÔØÜàäÀˆ(´´´((ŒŒI•ÑÝ••Ñ¥¹œ…¹EÕ½Ñ”QÝ••ÑÌ(((ŒŒŒI•ÑÝ••Ñ¥¹œ()I•ÑÝ••ÑÌ…É”‘½¹”Ù¥„„A=MPÉ•ÅÕ•ÍÐÑ¼„ÍÁ•¥™¥Œ•¹‘Á½¥¹Ð‰˜]Í•½¸Ñ¡”ÕÍ•È%…¹Ñ¡”ÑÝ••Ð%¸((ŒŒŒEÕ½Ñ”QÝ••ÑÌ()ÅÕ½Ñ”ÑÝ••Ð¥Ì„É•Õ±…ÈÑÝ••ÐÝ¥Ñ „ÅÕ½Ñ•}ÑÝ••Ñ}¥Á…É…µ•Ñ•È¸()‰½‘äè((´´´)Ñ•áÑ€è€‰¡•¬Ñ¡¥Ì½ÕÐ„ˆ)ÅÕ½Ñ•}ÑÝ••Ñ}¥‘€è€ˆÄÈÌÐÔØÜàäÀˆ(´´´(((ŒŒÉ•…Ñ¥¹œQ¡É•…‘Ì()Q¡É•…‘Ì…É”•ÍÍ•¹Ñ¥…±±ä„Í•É¥•Ì½˜É•Á±¥•ÌÑ¼å½ÕÈ½Ý¸ÑÝ••ÑÌ¸((Ä¸A½ÍÐÑ¡”™¥ÉÍÐÑÝ••Ð¸(È¸…ÁÑÕÉ”Ñ¡”%€É•‘ÕÉ¹•™É½´Ñ¡”™¥ÉÍÐÑÝ••Ð¸(Ì¸A½ÍÐÑ¡”Í•½¹ÑÝ••Ð°É•Á±å¥¹œÑ¼Ñ¡”%IMPÑÝ••Ð%¸(Ð¸…ÁÑÕÉ”Ñ¡”%€½˜Ñ¡”Í•½¹ÑÝ••Ð¸(Ô¸A½ÍÐÑ¡”Ñ¡¥ÉÑÝ••Ð°É•Á±å¥¹œÑ¼Ñ¡”M=9ÑÝ••Ð%°…¹Í¼½¸¸((¨©Q¥À¨¨è±Í¼µ•¹Ñ¥½¸å½ÕÈ½Ý¸¡…¹‘±”¥¸Ñ¡”É•Á±¥•Ì½È…±±½ÜQÝ¥ÑÑ•ÈÑ¼¡…¹‘±”Ñ¡”½¹Ù•ÉÍ…Ñ¥½¹}½¹ÑÉ½±Í€…ÕÑ½µ…Ñ¥…±±ä¸((ŒŒ	•ÍÐAÉ…Ñ¥•Ì™½ÈA½ÍÑ¥¹œ((´€¨©-••À¥ÐÍ¡½ÉÐ¨¨èUÍ”Ñ¡”€ÈàÀ¡…É…Ñ•È±¥µ¥ÐÝ¥Í•±ä¸(´€¨©9•ÍÑ•I•Á±¥•Ì¨¨è±Ý…åÌÉ•Á±äÑ¼Ñ¡”¥µµ•‘¥…Ñ”Á…É•¹ÐÑÝ••Ð¥¸„Ñ¡É•…¸(´€¨©!…Í¡Ñ…Ì¨¨èUÍ”€ÄY targeted hashtags, but avoid spamming.
+If you want to include media, you must first upload it via the media upload API endpoint and then reference the media_id in your tweet request.
+
+First, upload your media:
+
+---
+endpoint: `POST https://upload.twitter.com/1.1/media/upload.json`
+headers:
+  `Content-Type`: multipart/form-data
+body:
+  `media`: [binary file data]
+---
+
+The response will include a `media_id_string` field. Use this ID when creating your tweet:
+
+---
+endpoint: `POST /https://api.twitter.com/2/tweets`
+body:
+  `text`: "Check out this image!"
+  `media`: {
+    `media_ids`: ["1234567890"]
+  }
+---
+
+You can attach up to 4 images, 1 GIF, or 1 video per tweet. For videos longer than 30 seconds, use chunked upload.
+
+## Creating a Reply
+
+To reply to an existing tweet, include the `reply` parameter with the tweet ID you want to reply to:
+
+---
+endpoint: `POST /https://api.twitter.com/2/tweets`
+body:
+  `text`: "This is a reply"
+  `reply`: {
+    `in_reply_to_tweet_id`: "1234567890"
+  }
+---
+
+The reply will appear in the conversation thread beneath the original tweet.
+
+## Creating a Retweet
+
+To retweet a tweet, use the retweets endpoint:
+
+---
+endpoint: `POST /https://api.twitter.com/2/users/:id/retweets`
+path parameters:
+  `id`: Your user ID
+body:
+  `tweet_id`: "1234567890"
+---
+
+This will retweet the specified tweet to your timeline.
+
+### Removing a Retweet
+
+To undo a retweet:
+
+---
+endpoint: `DELETE /https://api.twitter.com/2/users/:id/retweets/:source_tweet_id`
+path parameters:
+  `id`: Your user ID
+  `source_tweet_id`: The ID of the tweet you retweeted
+---
+
+## Creating a Quote Tweet
+
+A quote tweet is a tweet that includes another tweet embedded within it. To create a quote tweet, include the URL or ID of the tweet you want to quote:
+
+---
+endpoint: `POST /https://api.twitter.com/2/tweets`
+body:
+  `text`: "Great point! Adding my thoughts here."
+  `quote_tweet_id`: "1234567890"
+---
+
+You can also include media attachments in quote tweets following the same process as regular tweets.
+
+## Creating a Thread
+
+To create a multi-tweet thread, post tweets sequentially, with each subsequent tweet replying to the previous one.
+
+First tweet:
+
+---
+endpoint: `POST /https://api.twitter.com/2/tweets`
+body:
+  `text`: "This is the first tweet in my thread. 1/3"
+---
+
+Save the `id` from the response, then post the second tweet:
+
+---
+endpoint: `POST /https://api.twitter.com/2/tweets`
+body:
+  `text`: "This is the second tweet in my thread. 2/3"
+  `reply`: {
+    `in_reply_to_tweet_id`: "[ID from first tweet]"
+  }
+---
+
+Continue this pattern for each subsequent tweet in the thread:
+
+---
+endpoint: `POST /https://api.twitter.com/2/tweets`
+body:
+  `text`: "This is the final tweet in my thread. 3/3"
+  `reply`: {
+    `in_reply_to_tweet_id`: "[ID from second tweet]"
+  }
+---
+
+### Thread Best Practices
+
+- Number your tweets (e.g., 1/5, 2/5) so readers know the thread length
+- Post tweets in quick succession to avoid others replying between thread tweets
+- Keep each tweet focused and readable on its own
+- Use the first tweet as a summary or hook to encourage reading the full thread
 
 ## Error Handling
 
@@ -22,3 +139,20 @@ If you receive a 403 Forbidden error, it might be due to:
 - Duplicate content (posting the exact same text twice)
 - Rate limiting
 - Invalid ID to reply to
+
+### Common Error Codes
+
+- `400 Bad Request`: Invalid request format or missing required fields
+- `401 Unauthorized`: Invalid or expired authentication credentials
+- `403 Forbidden`: Request understood but refused (see reasons above)
+- `404 Not Found`: The tweet ID referenced does not exist
+- `429 Too Many Requests`: Rate limit exceeded, wait before retrying
+
+### Rate Limits
+
+Twitter API v2 has the following rate limits for posting:
+- 300 tweets per 3-hour window
+- 50 tweets per 24 hours for retweets
+- Media uploads have separate rate limits based on file size
+
+If you hit a rate limit, the response will include a `x-rate-limit-reset` header indicating when you can resume posting.
