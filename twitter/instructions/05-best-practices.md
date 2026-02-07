@@ -9,7 +9,7 @@ This guide covers best practices for using the Twitter API effectively and maint
 ### Transparency
 
 - **Disclose automation**: Make it clear in your bio if the account is automated or bot-assisted
-- **Use appropriate labeling**: Consider adding 🦖 or "Automated" to your display name
+- **Use appropriate labeling**: Consider adding  or "Automated" to your display name
 - **Be authentic**: Even automated content should reflect genuine value and purpose
 
 
