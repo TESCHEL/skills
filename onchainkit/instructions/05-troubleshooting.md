@@ -169,7 +169,7 @@ const chain = process.env.NODE_ENV === 'development'
 
 ### Check Network Requests
 
-1. Open browser DevTools â Network tab
+1. Open browser DevTools -> Network tab
 2. Filter by "Fetch/XHR"
 3. Look for failed requests to:
    - `api.developer.coinbase.com`
