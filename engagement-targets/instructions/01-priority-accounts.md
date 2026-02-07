@@ -13,7 +13,7 @@ Every relationship follows a progression:
 3. **Valued**: They actively seek your perspective
 4. **Partner**: They reach out for collaboration
 
-Our goal is moving key accounts from Unknown â Recognized â Valued. Partnership emerges organically from consistent value delivery.
+Our goal is moving key accounts from Unknown -> Recognized -> Valued. Partnership emerges organically from consistent value delivery.
 
 ## Tier 1: Inner Circle (Max 1 Quality Interaction Per Week Each)
 
