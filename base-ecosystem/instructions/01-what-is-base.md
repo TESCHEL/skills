@@ -20,4 +20,4 @@
 ## Current Stats (Feb 2026 Context)
 * **TVL:** Top tier among L2s.
 * **Active Addresses:** Leading metric due to consumer app dominance (Friend.tech legacy, Farcaster usage).
-* **Differentiation:** Deep integration with Coinbase products (CEX, Wallet, USDC).
+* **Differentiation:** Deep integration with Coinbase products (CEX, Wallet, USDC at `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`).
