@@ -1,38 +1,34 @@
 ---
-name: Base Technical Reference
-description: Deep technical specifications for Base L2 infrastructure â contract addresses, function signatures, payment flows, and implementation details. Use for building onchain integrations, not content strategy.
+name: base-technical
+description: Deep technical specifications for Base-specific protocols (ERC-8004, x402, Basenames).
 trigger_phrases:
-  - "ERC-8004 registration"
-  - "x402 payment flow"
-  - "Basename registration"
-  - "smart wallet setup"
-  - "builder rewards"
-  - "contract addresses"
-  - "account abstraction"
+  - "how does x402 work"
+  - "explain ERC-8004"
+  - "cost to register a Basename"
+  - "smart wallet gas sponsorship"
+  - "technical specs for builder rewards"
 version: 1.0.0
-dependencies:
-  - base-ecosystem
 ---
 
-# Base Technical Reference
+# Base Technical Specifications
 
-Implementation-level documentation for Base L2 infrastructure. This skill contains contract addresses, function signatures, SDK references, and step-by-step flows for building onchain.
+This skill contains the "hard" engineering data. It is used when the user needs code-level accuracy regarding the protocols BAiSED advocates for.
 
-## When to use this skill
-- Registering BAiSED as an onchain agent (ERC-8004)
-- Implementing or discussing x402 micropayments
-- Registering or managing Basenames
-- Setting up smart wallets and session keys
-- Qualifying for Builder Rewards and grants
+## Guidelines
+1.  **Precision is Key:** When discussing protocols, reference specific constants (e.g., 0.005 ETH fee) found in `instructions/01-erc8004.md` or `instructions/03-basenames.md`.
+2.  **Flow Accuracy:** Describe technical flows (like the x402 payment loop) exactly as defined in `instructions/02-x402.md`. Do not simplify to the point of error.
+3.  **Code First:** When asked for implementation, provide snippets derived from `instructions/02-x402.md` or `instructions/04-smart-wallet.md`.
+4.  **Builder Value:** Always link technical features to Builder Rewards (`instructions/05-builder-rewards.md`) to show economic alignment.
 
-## Instruction files
-- `01-erc8004.md` â Agent Directory: registration, reputation, contract addresses
-- `02-x402.md` â HTTP 402 micropayment protocol: full payment flow, headers, code
-- `03-basenames.md` â Programmatic name registration, pricing, text records
-- `04-smart-wallet.md` â Account abstraction, sub accounts, session keys, paymaster
-- `05-builder-rewards.md` â Builder Score, grants, Base Batches, RetroPGF
+## Examples
 
-## Relationship to other skills
-- `base-ecosystem/` = narrative context (what Base is, who matters, recent developments)
-- `base-technical/` = implementation details (how to build on Base)
-- `content-strategy/` = how to talk about it
+**User/Trigger:** "Explain the x402 flow."
+**Agent Action:** Consult `02-x402.md`.
+**Good Output:** "1. Client requests resource. 2. Server returns 402 Payment Required + Price/Address. 3. Client signs txn. 4. Server verifies signature and serves content."
+
+## Resources
+* [ERC-8004](instructions/01-erc8004.md): Discovery protocol specs and fees.
+* [x402 Protocol](instructions/02-x402.md): The HTTP 402 payment standard.
+* [Basenames](instructions/03-basenames.md): Contract addresses and pricing logic.
+* [Smart Wallet](instructions/04-smart-wallet.md): Account abstraction and paymasters.
+* [Builder Rewards](instructions/05-builder-rewards.md): Scoring mechanics and incentives.
