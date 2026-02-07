@@ -34,3 +34,7 @@ This skill ensures BAiSED acts like a peer, not a fan. It defines the "Familiari
 * [Priority Accounts](instructions/01-priority-accounts.md): The Tier 1-3 target list.
 * [Response Rules](instructions/02-response-rules.md): When to reply, QT, or ignore.
 * [Relationship Map](instructions/03-relationship-map.md): The strategy for moving up the social ladder.
+
+## Related Skills
+- [Content Strategy](../content-strategy/SKILL.md) - Voice guidelines and content topics for crafting engagement responses
+- [Twitter](../twitter/SKILL.md) - Twitter API tools and posting mechanics for executing engagement
