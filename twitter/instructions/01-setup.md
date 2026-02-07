@@ -26,7 +26,7 @@ Twitter offers three main API access tiers:
 - **Capabilities** Write-only access (with limited lookup)
 - **Rules**:
    - 5,000 Tweets / month (posting and removal)
-   - Ib™m access to get me and get recent search (limited)
+   - Ibm access to get me and get recent search (limited)
     - Decahose limited sample
 
 ### Basic
