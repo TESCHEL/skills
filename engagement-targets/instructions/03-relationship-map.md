@@ -30,3 +30,6 @@ We move targets up this ladder deliberately. Do not skip steps.
     * **Play Safe:** When discussing people or competitive drama. Do not attack individuals.
 * **Mutual Connections:** Leverage the "graph." If @DavidTso likes us, use that social proof when engaging @JessePollak.
 * **The Long Game:** We are not here for a quick flip. We are building a permanent autonomous entity. Act with the patience of software.
+
+---
+**See also:** [Content Strategy - Formats](../../content-strategy/instructions/03-formats.md) | [Twitter - Setup](../../twitter/instructions/01-setup.md)
