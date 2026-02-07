@@ -1,5 +1,5 @@
 ---
-name: x402-protocol
+name: x402
 description: Implementation guide for the x402 open payment standard (HTTP 402).
 trigger_phrases:
   - "implement x402"
