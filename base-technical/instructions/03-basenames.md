@@ -9,7 +9,7 @@ Basenames are Base's ENS subnames for the `base.eth` domain. Human-readable addr
 - **RegistrarController:** `0x1f7...d3fc`
 - **Price Oracle:** `0x3f9...c4bc`
 - **L2Resolver:** deployed (handles text records on Base)
-- **ReverseRegistrar:** deployed (address â name mapping)
+- **ReverseRegistrar:** deployed (address -> name mapping)
 
 ## Registration Function
 ```solidity
