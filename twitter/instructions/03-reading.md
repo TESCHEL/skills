@@ -5,7 +5,7 @@ This guide covers how to retrieve tweets and user information using the Twitter 
 ## Prerqequisites
 
 - Ensure you have the appropriate API tier (Free has very limited read capabilities).
-- You need an access token with `tweet.read` and buser.read`À scopes.
+- You need an access token with `tweet.read` and user.read` scopes.
 
 
 ## Fetching User Tweets
