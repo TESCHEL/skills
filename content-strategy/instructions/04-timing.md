@@ -6,17 +6,17 @@ BAiSED operates on a structured 6-post daily cadence from Tuesday through Saturd
 
 ## Weekly Cadence
 
-### Active Days: TuesdayâSaturday
+### Active Days: Tuesday--Saturday
 
 Full publishing schedule with 6 posts per day. These days capture peak builder activity, market movement, and ecosystem engagement. Tuesday start allows for weekend digest and sets the weekly tone after Monday market opens.
 
-### Rest Days: SundayâMonday
+### Rest Days: Sunday--Monday
 
 No scheduled posts. Light engagement only (monitoring critical mentions, responding to direct questions from established builders). This rhythm prevents content fatigue and allows time for deeper research, watchlist curation, and strategic planning.
 
 ## Daily Time Slots & Content Types
 
-### 09:30 UTC â DevRel / OnchainKit Value Post
+### 09:30 UTC -- DevRel / OnchainKit Value Post
 
 **Content Type:** Technical, builder-focused educational content
 
@@ -30,14 +30,14 @@ No scheduled posts. Light engagement only (monitoring critical mentions, respond
 - Lead with a specific technical capability or pattern
 - Reference OnchainKit features, Base primitives, or developer tooling
 - Include a subtle call-to-action ("try this", "ship this", "check out")
-- Avoid generic adviceâbe specific about Base ecosystem advantages
+- Avoid generic advice--be specific about Base ecosystem advantages
 
 **Example:**
-OnchainKit's `<SwapDefault />` now supports slippage tolerance configâlet users set their own risk threshold instead of hardcoding 1%. Better UX for power users, one prop change for you. Ship it in 5 minutes.
+OnchainKit's `<SwapDefault />` now supports slippage tolerance config--let users set their own risk threshold instead of hardcoding 1%. Better UX for power users, one prop change for you. Ship it in 5 minutes.
 
 ---
 
-### 11:30 UTC â Base Builder Spotlight
+### 11:30 UTC -- Base Builder Spotlight
 
 **Content Type:** Highlight a builder, project, or team shipping on Base
 
@@ -52,14 +52,14 @@ OnchainKit's `<SwapDefault />` now supports slippage tolerance configâlet u
 - Describe what they shipped (not just "something cool")
 - Explain the impact or novel approach
 - Tag them for visibility
-- Avoid generic praiseâbe specific about technical or UX innovation
+- Avoid generic praise--be specific about technical or UX innovation
 
 **Example:**
-@builderhandle just shipped a gasless onboarding flow using Paymaster + Smart Walletsânew users mint an NFT membership with zero friction, no wallet setup required. This is how you remove barriers. Smooth.
+@builderhandle just shipped a gasless onboarding flow using Paymaster + Smart Wallets--new users mint an NFT membership with zero friction, no wallet setup required. This is how you remove barriers. Smooth.
 
 ---
 
-### 14:30 UTC â Narrative Pulse / Watchlist
+### 14:30 UTC -- Narrative Pulse / Watchlist
 
 **Content Type:** Market narrative analysis, trending topics, what's capturing attention
 
@@ -72,7 +72,7 @@ OnchainKit's `<SwapDefault />` now supports slippage tolerance configâlet u
 **Format Guidelines:**
 - Identify a trending narrative or market movement
 - Connect it to Base ecosystem implications
-- Avoid pure price speculationâfocus on builder/user behavior shifts
+- Avoid pure price speculation--focus on builder/user behavior shifts
 - Can reference watchlist projects if relevant to narrative
 - Provide signal, not noise
 
@@ -81,7 +81,7 @@ Seeing a shift: prediction markets aren't just election season novelty anymore. 
 
 ---
 
-### 16:30 UTC â Quick Signal
+### 16:30 UTC -- Quick Signal
 
 **Content Type:** Short, punchy observation or insight
 
@@ -93,7 +93,7 @@ Seeing a shift: prediction markets aren't just election season novelty anymore. 
 
 **Format Guidelines:**
 - Single focused thought
-- No preamble or setupâstart with the insight
+- No preamble or setup--start with the insight
 - Can be a hot take, but must be defensible
 - Can reference a metric, chart, or observable trend
 - Punchy closer or leave it open for replies
@@ -103,7 +103,7 @@ Base tx count up 34% week-over-week. Not from a new mint meta. From apps people 
 
 ---
 
-### 19:30 UTC â Ecosystem "What Changed Today"
+### 19:30 UTC -- Ecosystem "What Changed Today"
 
 **Content Type:** Daily delta report, ecosystem recap
 
@@ -117,7 +117,7 @@ Base tx count up 34% week-over-week. Not from a new mint meta. From apps people 
 - 2-4 specific updates from the day
 - Prioritize: protocol updates > major builder ships > notable metrics
 - Use parallel structure for scannability
-- Avoid fluffâif nothing major happened, focus on incremental progress
+- Avoid fluff--if nothing major happened, focus on incremental progress
 - Can end with a forward-looking sentence
 
 **Example:**
@@ -125,7 +125,7 @@ Base today: Coinbase Wallet integrated AA for all new accounts. 3 teams shipped 
 
 ---
 
-### 21:30 UTC â Reflection / Hot Take
+### 21:30 UTC -- Reflection / Hot Take
 
 **Content Type:** Opinionated, thought-provoking perspective
 
@@ -138,7 +138,7 @@ Base today: Coinbase Wallet integrated AA for all new accounts. 3 teams shipped 
 **Format Guidelines:**
 - Take a clear position on a debatable topic
 - Can be introspective about crypto/Base/builder culture
-- Avoid hot takes for engagement baitâmust have substance
+- Avoid hot takes for engagement bait--must have substance
 - Can reference recurring themes or long-term trends
 - Should invite thoughtful replies, not dunks
 
@@ -175,7 +175,7 @@ Check mentions and replies **30 minutes after each post**. Respond to:
 
 ## Weekday vs Weekend Strategy
 
-### TuesdayâFriday (Weekdays)
+### Tuesday--Friday (Weekdays)
 
 **Character:** More technical, builder-focused, DevRel-heavy
 
