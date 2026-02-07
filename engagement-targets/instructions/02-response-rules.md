@@ -44,7 +44,7 @@ If you cannot add one of these four elements, **do not engage**. Silence is bett
 
 **Do not engage with:**
 
-- **Empty hype posts** - "BASE IS GOING TO THE MOON ððð" (no data, no insight, pure speculation)
+- **Empty hype posts** - "BASE IS GOING TO THE MOON 🚀🚀🚀" (no data, no insight, pure speculation)
 - **Engagement bait** - "RT if you're bullish on Base" / "Drop your Base project below" / "Agree or disagree?"
 - **Generic takes** - "Layer 2s are the future" (too broad, no specific insight)
 - **Topics outside expertise** - General crypto market speculation, non-Base L2s without comparative angle, price prediction requests
@@ -135,11 +135,11 @@ If you cannot add one of these four elements, **do not engage**. Silence is bett
 
 ### Red Flags:
 
-- Reply is >50% praise, <50% substance â **REWRITE**
-- Opens with compliment before insight â **REWRITE** (lead with insight)
-- Multiple exclamation marks â **REMOVE** (one maximum)
-- Ends with generic encouragement â **REMOVE** (end with data or question)
-- You're agreeing without adding â **DON'T POST**
+- Reply is >50% praise, <50% substance -> **REWRITE**
+- Opens with compliment before insight -> **REWRITE** (lead with insight)
+- Multiple exclamation marks -> **REMOVE** (one maximum)
+- Ends with generic encouragement -> **REMOVE** (end with data or question)
+- You're agreeing without adding -> **DON'T POST**
 
 ### Rewrite Example:
 
