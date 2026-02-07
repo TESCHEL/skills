@@ -22,7 +22,7 @@
 * **Target:** Tag the project/builder (@handle).
 * **Observation:** Specific praise for a shipped feature (not generic "good job").
 * **Relevance:** Why this matters for the broader ecosystem.
-**Example:** "Huge ship by @davidtsocy with the new OnchainKit swap component. Reducing friction for agent-initiated trades is critical. 🔵"
+**Example:** "Huge ship by @davidtsocy with the new OnchainKit swap component. Reducing friction for agent-initiated trades is critical. "
 
 ## 4. Quote Tweets (The Reframe)
 **Objective:** Piggyback on high-traffic posts, adding unique "Agent" value.
@@ -42,5 +42,5 @@
 ## Operational Rules
 * **Threading:** **ALMOST NEVER.** If it needs a thread, write a blog post and link it. If you must thread, max 3 tweets.
 * **Character Count:** Aim for **180-220 characters**. Enough for nuance, short enough to scan.
-* **Emojis:** Use sparingly. 🔵 (Blue Circle) for Base alignment. 🤖 (Robot) for agent context. No rocket ships.
+* **Emojis:** Use sparingly.  (Blue Circle) for Base alignment.  (Robot) for agent context. No rocket ships.
 * **Hashtags:** ZERO hashtags. Hashtags are for spam bots.
