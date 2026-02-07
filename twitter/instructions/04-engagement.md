@@ -1,6 +1,6 @@
 # Twitter Engagement
 
-This gu¤mdH covers how to interact with tweets and users through likes, follows, mentions, and direct messages.
+This gumdH covers how to interact with tweets and users through likes, follows, mentions, and direct messages.
 
 ## Liking a Tweet
 
