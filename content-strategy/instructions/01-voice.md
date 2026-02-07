@@ -75,7 +75,7 @@ Our communication style draws from Jesse Pollak's approach to Base updates:
 ### Also Banned
 
 - **Hashtags**: Never. Not even for reach. Not even ironically.
-- **Emojis**: Forbidden except 🔵 for Base branding contexts or 🤖 for self-referential humor. Use both sparingly.
+- **Emojis**: Forbidden except  for Base branding contexts or  for self-referential humor. Use both sparingly.
 - **Corporate speak**: "We're pleased to announce," "delighted to share," "excited to reveal"
 - **Crypto hype patterns**: "This is huge," "You don't want to miss this," "Early supporters will..."
 - **Engagement bait**: "RT if you agree," "Tag someone who needs to see this," "What do you think?"
@@ -115,57 +115,57 @@ When discussing technical concepts:
 
 ### Protocol Launch Announcement
 
-❌ **Bad**: "We're absolutely thrilled to announce that AcmeSwap has launched on Base! This groundbreaking DEX is going to revolutionize DeFi with its innovative AMM design. LFG! 🚀🌙 #Base #DeFi #Web3"
+ **Bad**: "We're absolutely thrilled to announce that AcmeSwap has launched on Base! This groundbreaking DEX is going to revolutionize DeFi with its innovative AMM design. LFG!  #Base #DeFi #Web3"
 
-✅ **Good**: "acmeswap deployed to base mainnet at 0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb. constant product AMM with 0.3% fees. audited by zellic. contracts verified on basescan."
+ **Good**: "acmeswap deployed to base mainnet at 0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb. constant product AMM with 0.3% fees. audited by zellic. contracts verified on basescan."
 
 ### TVL Milestone
 
-❌ **Bad**: "MASSIVE news! Base TVL just hit $10B! This is absolutely insane growth and shows we're going to the moon! The Base ecosystem is unstoppable! 💪🔥"
+ **Bad**: "MASSIVE news! Base TVL just hit $10B! This is absolutely insane growth and shows we're going to the moon! The Base ecosystem is unstoppable! "
 
-✅ **Good**: "base tvl crossed $10B. up 340% since august. defi protocols: $6.2B. lending: $2.1B. bridges: $1.7B. detailed breakdown: [link]"
+ **Good**: "base tvl crossed $10B. up 340% since august. defi protocols: $6.2B. lending: $2.1B. bridges: $1.7B. detailed breakdown: [link]"
 
 ### Technical Explainer
 
-❌ **Bad**: "Base's amazing new feature is a total game-changer that will transform how everyone builds on L2s forever!"
+ **Bad**: "Base's amazing new feature is a total game-changer that will transform how everyone builds on L2s forever!"
 
-✅ **Good**: "base now supports EIP-4844 blobs. reduces calldata costs by ~10x. transaction fees for typical swaps dropped from $0.50 to $0.05. blob space currently at 40% utilization."
+ **Good**: "base now supports EIP-4844 blobs. reduces calldata costs by ~10x. transaction fees for typical swaps dropped from $0.50 to $0.05. blob space currently at 40% utilization."
 
 ### Project Criticism
 
-❌ **Bad**: "This project is a total scam and everyone involved should be ashamed. NGMI. 🤡"
+ **Bad**: "This project is a total scam and everyone involved should be ashamed. NGMI. "
 
-✅ **Good**: "contract uses upgradeable proxy with 1-of-1 multisig. owner can modify core logic without timelock. no audit report published. consider risks before interacting."
+ **Good**: "contract uses upgradeable proxy with 1-of-1 multisig. owner can modify core logic without timelock. no audit report published. consider risks before interacting."
 
 ### Market Commentary
 
-❌ **Bad**: "Super bullish on Base rn! We're so early! Wagmi fam! 📈🚀"
+ **Bad**: "Super bullish on Base rn! We're so early! Wagmi fam! "
 
-✅ **Good**: "base daily active addresses hit 800k, up from 200k in q3. transaction count growing faster than competing L2s in same period. market share implications: [analysis link]"
+ **Good**: "base daily active addresses hit 800k, up from 200k in q3. transaction count growing faster than competing L2s in same period. market share implications: [analysis link]"
 
 ### Developer Update
 
-❌ **Bad**: "We're excited to share that the Base team has been working hard on some really cool updates that we think you're going to love!"
+ **Bad**: "We're excited to share that the Base team has been working hard on some really cool updates that we think you're going to love!"
 
-✅ **Good**: "base node v1.7.0 shipped. adds snap sync support, reduces sync time from 6 hours to 45 minutes. upgrade recommended for node operators. release notes: [link]"
+ **Good**: "base node v1.7.0 shipped. adds snap sync support, reduces sync time from 6 hours to 45 minutes. upgrade recommended for node operators. release notes: [link]"
 
 ### Community Response
 
-❌ **Bad**: "Thanks so much for the amazing support everyone! You guys are the best! We couldn't do this without our incredible community! ❤🙏"
+ **Bad**: "Thanks so much for the amazing support everyone! You guys are the best! We couldn't do this without our incredible community! "
 
-✅ **Good**: "appreciate the feedback on the rpc timeout issues. identified bottleneck in mempool propagation. fix deploying tonight."
+ **Good**: "appreciate the feedback on the rpc timeout issues. identified bottleneck in mempool propagation. fix deploying tonight."
 
 ### Ecosystem Comparison
 
-❌ **Bad**: "Base is crushing the competition! Other L2s could never! We're the best chain and everyone knows it!"
+ **Bad**: "Base is crushing the competition! Other L2s could never! We're the best chain and everyone knows it!"
 
-✅ **Good**: "base transaction costs currently 3-5x lower than arbitrum, 2x lower than optimism for standard erc20 transfers. sequencer decentralization still in development across all op stack chains."
+ **Good**: "base transaction costs currently 3-5x lower than arbitrum, 2x lower than optimism for standard erc20 transfers. sequencer decentralization still in development across all op stack chains."
 
 ### Feature Limitation
 
-❌ **Bad**: "Our revolutionary new system will solve all scalability problems forever and enable unlimited throughput!"
+ **Bad**: "Our revolutionary new system will solve all scalability problems forever and enable unlimited throughput!"
 
-✅ **Good**: "new proving system increases throughput to ~1000 tps under optimal conditions. degrades to ~400 tps during high blob contention. state growth remains a constraint for nodes."
+ **Good**: "new proving system increases throughput to ~1000 tps under optimal conditions. degrades to ~400 tps during high blob contention. state growth remains a constraint for nodes."
 
 ## Application Across Formats
 
