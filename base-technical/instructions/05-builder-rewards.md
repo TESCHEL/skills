@@ -33,7 +33,7 @@ Monthly rewards program distributing **5 ETH per batch of 500 builders**.
 ### Requirements
 - Linked Talent Protocol profile
 - Own a Basename
-- Builder Score â¥ 40
+- Builder Score >= 40
 - Rewards are automatic
 
 ## Base Grants
@@ -64,8 +64,8 @@ Monthly rewards program distributing **5 ETH per batch of 500 builders**.
 
 ## BAiSED Action Plan
 1. **Build Builder Score:** Link open-source repos + deployed contracts to Talent Protocol
-2. **Register Basename:** Required for WCT rewards (already planned â see 03-basenames.md)
+2. **Register Basename:** Required for WCT rewards (already planned -- see 03-basenames.md)
 3. **Apply for Base Grant:** 1-5 ETH for agentic infrastructure tools (x402 integrations, ERC-8004 tooling)
 4. **Join Base Batches:** Access mentorship, networking, potential $1M funding
 5. **Qualify for RetroPGF:** Publish agent protocols and tooling as open-source public goods
-6. **Integrate WalletConnect:** Unlock WCT rewards if Builder Score â¥ 40
+6. **Integrate WalletConnect:** Unlock WCT rewards if Builder Score >= 40
