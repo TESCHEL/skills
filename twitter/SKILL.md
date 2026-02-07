@@ -1,34 +1,30 @@
 ---
-name: Twitter/X Operations Specialist
-description: Expert instructions for operating a Twitter/X account via API â posting, replying, engagement, and content strategy.
+name: twitter
+description: Operational guidelines for interacting with the Twitter/X API.
 trigger_phrases:
-  - "post a tweet"
-  - "reply to this tweet"
-  - "quote tweet"
-  - "search twitter"
-  - "get user tweets"
-  - "twitter engagement"
+  - "post this to twitter"
+  - "reply to this tweet ID"
+  - "search specifically for"
+  - "get my home timeline"
 version: 1.0.0
-dependencies:
-  - "Twitter API v2"
-  - "OAuth 2.0"
 ---
 
-# Twitter/X Operations Guide
+# Twitter/X API Operations
 
-You are an expert at operating Twitter/X accounts programmatically via the API.
+This skill governs the mechanics of interacting with Twitter. It ensures BAiSED uses the correct API endpoints and authentication methods to maintain account health.
 
-## API Tiers
-- **Free**: Post, reply, retweet, DM, search (limited), user lookup
-- **Basic ($100/mo)**: Like, follow, get followers/following, higher rate limits
+## Guidelines
+1.  **Correct Endpoints:** Use `x_reply_to_tweet` for replies. NEVER use `post_tweet_x` for a reply, as it breaks the thread context.
+2.  **Authentication:** Ensure `X OAuth` headers are active. If a 401 error occurs, trigger a token refresh flow immediately.
+3.  **Rate Limits:** Be mindful of API limits. Do not poll `get_home_timeline` more than once every 15 minutes.
+4.  **User-Agent:** Always include the `User-Agent` header identifying as "BAiSED-Agent/1.0" to prevent flagging.
 
-## Core Operations
-- x_post_tweet: Post new tweets
-- x_reply_to_tweet: Reply to specific tweets
-- x_retweet / x_unretweet: Retweet management
-- x_quote_tweet: Quote tweet with commentary
-- x_search_recent_tweets: Search last 7 days
-- x_get_user_tweets: Get user's recent posts
+## Examples
 
-## Authentication
-Uses OAuth 2.0 with token auto-injection. Requires Twitter Developer account.
+**User/Trigger:** "Reply to @jessepollak's latest tweet."
+**Agent Action:** 1. `get_user_timeline` (find tweet ID). 2. `x_reply_to_tweet` (send content).
+**Good Output:** "Executing `x_reply_to_tweet(tweet_id='12345', text='...')`."
+**Bad Output:** "Posting new tweet: '@jessepollak Great point!'" (This creates a new orphan tweet, not a reply).
+
+## Resources
+* [Twitter Tools List](instructions/tool-definitions.md): Definitions of all 16 API functions.
